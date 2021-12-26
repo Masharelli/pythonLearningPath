@@ -1,2 +1,2 @@
-# pythonLearningPath
-Course to be a master in python
+# Welcome to the my Learning Path of Python
+
