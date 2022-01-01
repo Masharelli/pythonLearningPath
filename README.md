@@ -26,20 +26,63 @@ This algorithm work to sort an array of numbers this is working with small quant
 
 ### **Code in Python (Example)**
     def insertionSort(arr):
- 
-    # Traverse through 1 to len(arr)
+
     for i in range(1, len(arr)):
- 
         key = arr[i]
- 
-        # Move elements of arr[0..i-1], that are
-        # greater than key, to one position ahead
-        # of their current position
         j = i-1
         while j >= 0 and key < arr[j] :
                 arr[j + 1] = arr[j]
                 j -= 1
         arr[j + 1] = key
+
+    arr = [12, 11, 13, 5, 6]
+    insertionSort(arr)
+    for i in range(len(arr)):
+    print ("% d" % arr[i])
+
+Case when you want to sort the array in **decrease** way 
+
+    def insertionSortDecrease(arr):
+
+    for i in range(1, len(arr)):
+        key = arr [i]
+        j = i - 1
+        while j >= 0 and  key > arr[j]:
+            arr [j + 1] = arr[j]
+            j = j - 1 
+        arr [j + 1] = key
+### **Linear Search**
+
+Pseudo Code
+    
+    LinearSearch(A, v)
+        for i = 1 to A.length
+            if A[i] == v
+            return i
+        return NIL
+
+Code in python 
+
+    def linearSearch(arr, n, v):
+
+    for i in range(0, n):
+        if (arr[i] == v):
+            return i 
+    return -1
+
+    arr = [2,3,4,10,15]
+    v = 15
+    n = len(arr)
+
+    result = linearSearch(arr, n, v)
+    if(result == -1):
+        print("The number is not in the array")
+    else:
+        print("The element is present in the index", result)
+
+**The time complexity of the above algorithm is O(n).**
+
+
 
 
 
