@@ -82,6 +82,37 @@ Code in python
 
 **The time complexity of the above algorithm is O(n).**
 
+### **SelectionSort**
+
+Pseudo Code
+
+    n = A.length
+    for i = 1 to n - 1
+        minIndex = i
+        for j = i + 1 to n
+            if A[j] < A[minIndex]
+                minIndex = j
+        swap(A[i], A[minIndex])
+
+Code in Python
+
+    import sys
+    print ("Answer Θ(n^3")
+
+    A = [64,25,12,22,11]
+
+    for i in range(len(A)):
+        
+        min_idx = i
+        for j in range(i+1, len(A)):
+            if A[min_idx] > A[j]:
+                min_idx = j
+                
+        A[i], A[min_idx] = A[min_idx], A[i]
+    print ("Sorted array is")
+    for i in range(len(A)):
+        print("%d" %A[i])
+
 
 
 
