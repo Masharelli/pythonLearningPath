@@ -16,3 +16,30 @@ Actually right now I'm a Application developer at IBM, working with API's in **S
 
 In this repositorie or course, I´ll using the guide style for python **PEP8** so the following code will be in this format.
 [PEP8 Guide Link](https://www.python.org/dev/peps/pep-0008/)
+
+### **Algorithms study**
+
+#### **Insertion Sort** 
+This algorithm work to sort an array of numbers this is working with small quantity of numbers.
+- **Time complexity it´s of: O(n^2)** 
+- **Auxiliary Space: O(1)**
+
+### **Code in Python (Example)**
+    def insertionSort(arr):
+ 
+    # Traverse through 1 to len(arr)
+    for i in range(1, len(arr)):
+ 
+        key = arr[i]
+ 
+        # Move elements of arr[0..i-1], that are
+        # greater than key, to one position ahead
+        # of their current position
+        j = i-1
+        while j >= 0 and key < arr[j] :
+                arr[j + 1] = arr[j]
+                j -= 1
+        arr[j + 1] = key
+
+
+
