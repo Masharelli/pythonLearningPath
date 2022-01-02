@@ -2,12 +2,21 @@
 
 Hi devs here **Masha**!
 
-
-
 This repository it's very personal and important, because I'm in my last semester of the University and I set a personal goal.
 
  **Be a Python Developer to get in a big tech company !!!**
 
+
+- [Welcome to the my Learning Path of Python](#welcome-to-the-my-learning-path-of-python)
+  - [**Personal Experience**](#personal-experience)
+    - [**Style Guide (PEP8)**](#style-guide-pep8)
+    - [**Udacity Python Course**](#udacity-python-course)
+      - [Arithmetic Operators](#arithmetic-operators)
+    - [**Algorithms study**](#algorithms-study)
+      - [**Insertion Sort**](#insertion-sort)
+      - [**Code in Python (Example)**](#code-in-python-example)
+      - [**Linear Search**](#linear-search)
+      - [**SelectionSort**](#selectionsort)
 ## **Personal Experience**
 
 Actually right now I'm a Application developer at IBM, working with API's in **Spring Boot(JAVA)** also working with a little bit of **Scala** and **Spark**
@@ -17,6 +26,18 @@ Actually right now I'm a Application developer at IBM, working with API's in **S
 In this repositorie or course, I´ll using the guide style for python **PEP8** so the following code will be in this format.
 [PEP8 Guide Link](https://www.python.org/dev/peps/pep-0008/)
 
+### **Udacity Python Course**
+
+#### Arithmetic Operators
+
+- Addition +
+- Subtraction -
+- Multiplication *
+- Division /
+- Mod %
+- Exponentiation **
+- Divides and rounds down to the nearest integer //
+
 ### **Algorithms study**
 
 #### **Insertion Sort** 
@@ -24,7 +45,7 @@ This algorithm work to sort an array of numbers this is working with small quant
 - **Time complexity it´s of: O(n^2)** 
 - **Auxiliary Space: O(1)**
 
-### **Code in Python (Example)**
+#### **Code in Python (Example)**
     def insertionSort(arr):
 
     for i in range(1, len(arr)):
@@ -51,7 +72,7 @@ Case when you want to sort the array in **decrease** way
             arr [j + 1] = arr[j]
             j = j - 1 
         arr [j + 1] = key
-### **Linear Search**
+#### **Linear Search**
 
 Pseudo Code
     
@@ -82,7 +103,7 @@ Code in python
 
 **The time complexity of the above algorithm is O(n).**
 
-### **SelectionSort**
+#### **SelectionSort**
 
 Pseudo Code
 
