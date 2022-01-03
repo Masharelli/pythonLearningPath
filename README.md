@@ -12,6 +12,7 @@ This repository it's very personal and important, because I'm in my last semeste
     - [**Style Guide (PEP8)**](#style-guide-pep8)
     - [**Udacity Python Course**](#udacity-python-course)
       - [Arithmetic Operators](#arithmetic-operators)
+      - [Varibles](#varibles)
     - [**Algorithms study**](#algorithms-study)
       - [**Insertion Sort**](#insertion-sort)
       - [**Code in Python (Example)**](#code-in-python-example)
@@ -37,6 +38,28 @@ In this repositorie or course, I´ll using the guide style for python **PEP8** s
 - Mod %
 - Exponentiation **
 - Divides and rounds down to the nearest integer //
+
+#### Varibles 
+
+- Variables are used to hold information about something that you will use later
+
+
+    a = 123
+
+- You can have **Multiple** assigment using 
+
+    x,y,z = 2, 3, 5
+
+- The variable has to be descripted and useful for you and the other developers
+
+**The pythonic way to name varialbles is to use all lowercase letters and underscores to separte words**
+
+    Example: my_long
+
+- Assignment Operators
+  - Example is x = 2 -> x = 2
+  - += x+=2 -> x = x + 2
+  - -= x-=2 -> x = x - 2
 
 ### **Algorithms study**
 
