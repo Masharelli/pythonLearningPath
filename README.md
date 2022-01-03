@@ -15,6 +15,7 @@ This repository it's very personal and important, because I'm in my last semeste
       - [**Varibles**](#varibles)
       - [**Integers and Floats**](#integers-and-floats)
       - [**Python Best Practices**](#python-best-practices)
+      - [Booleans](#booleans)
     - [**Algorithms study**](#algorithms-study)
       - [**Insertion Sort**](#insertion-sort)
       - [**Code in Python (Example)**](#code-in-python-example)
@@ -79,6 +80,27 @@ In this course we are following **PEP8 Guidelines** so the next points are just 
     - print(4 + 5)
     Bad
     - print(4     +    5)
+
+#### Booleans
+
+We have two values in the **Booleans** **True and False**.
+
+There are 6 comparasion operators that are common to see in order to obtain a bool value:
+
+    Symbol Use Case	Bool	Operation
+    5 < 3	False	Less Than
+    5 > 3	True	Greater Than
+    3 <= 3	True	Less Than or Equal To
+    3 >= 5	False	Greater Than or Equal To
+    3 == 5	False	Equal To
+    3 != 5	True	Not Equal To
+
+And 3 logical operators
+
+    Logical Use	Bool	Operation
+    5 < 3 and 5 == 5	False	and - Evaluates if all provided statements are True
+    5 < 3 or 5 == 5	True	or - Evaluates if at least one of many statements is True
+    not 5 < 3	True	not - Flips the Bool Value
 
 You should keep around 80 to 99 characters per line to help to others devs to read easier your code.
 ### **Algorithms study**
