@@ -12,7 +12,9 @@ This repository it's very personal and important, because I'm in my last semeste
     - [**Style Guide (PEP8)**](#style-guide-pep8)
     - [**Udacity Python Course**](#udacity-python-course)
       - [Arithmetic Operators](#arithmetic-operators)
-      - [Varibles](#varibles)
+      - [**Varibles**](#varibles)
+      - [**Integers and Floats**](#integers-and-floats)
+      - [**Python Best Practices**](#python-best-practices)
     - [**Algorithms study**](#algorithms-study)
       - [**Insertion Sort**](#insertion-sort)
       - [**Code in Python (Example)**](#code-in-python-example)
@@ -39,7 +41,7 @@ In this repositorie or course, I´ll using the guide style for python **PEP8** s
 - Exponentiation **
 - Divides and rounds down to the nearest integer //
 
-#### Varibles 
+#### **Varibles** 
 
 - Variables are used to hold information about something that you will use later
 
@@ -61,6 +63,24 @@ In this repositorie or course, I´ll using the guide style for python **PEP8** s
   - += x+=2 -> x = x + 2
   - -= x-=2 -> x = x - 2
 
+#### **Integers and Floats**
+
+- int - for Integer values
+- float - for decimal or floating point values
+
+Also you can check the type of you variable
+
+    x = 4
+    print (type(x))
+    int
+#### **Python Best Practices**
+In this course we are following **PEP8 Guidelines** so the next points are just a few of tips.
+    Good
+    - print(4 + 5)
+    Bad
+    - print(4     +    5)
+
+You should keep around 80 to 99 characters per line to help to others devs to read easier your code.
 ### **Algorithms study**
 
 #### **Insertion Sort** 
